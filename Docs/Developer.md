@@ -11,8 +11,8 @@
 
 - .NET 10
   - EF Core
+- Avalonia 12
 - sqlite
-- Avalonia v11 （暂不升级，因为 v12 尚在开发中，且 DeveloperTools 是付费功能。）
 
 ## 开发依赖
 
