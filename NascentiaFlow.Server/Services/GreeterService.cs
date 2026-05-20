@@ -1,7 +1,7 @@
 using Grpc.Core;
-using EgoPrimer.Shared;
+using NascentiaFlow.Shared;
 
-namespace EgoPrimer.Server.Services;
+namespace NascentiaFlow.Server.Services;
 
 public class GreeterService : Greeter.GreeterBase
 {
