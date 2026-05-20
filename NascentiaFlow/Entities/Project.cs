@@ -1,6 +1,6 @@
-﻿using NodaTime;
+using NodaTime;
 
-namespace EgoPrimer.Entities;
+namespace NascentiaFlow.Entities;
 
 public class Project : EntityBase
 {

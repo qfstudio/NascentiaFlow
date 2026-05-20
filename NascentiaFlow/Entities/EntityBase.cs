@@ -1,7 +1,7 @@
-﻿using NodaTime;
+using NodaTime;
 using ReactiveUI;
 
-namespace EgoPrimer.Entities;
+namespace NascentiaFlow.Entities;
 
 public class EntityBase : ReactiveObject
 {

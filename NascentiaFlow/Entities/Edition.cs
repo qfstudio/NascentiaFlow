@@ -1,4 +1,4 @@
-﻿namespace EgoPrimer.Entities;
+namespace NascentiaFlow.Entities;
 
 public enum EditionFormat
 {

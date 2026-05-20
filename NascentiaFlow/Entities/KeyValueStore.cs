@@ -1,6 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
-namespace EgoPrimer.Entities;
+namespace NascentiaFlow.Entities;
 
 [Index(nameof(Key), IsUnique = true)]
 public class KeyValueStore : EntityBase
