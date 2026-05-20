@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package EgoPrimer.Shared;
+package NascentiaFlow.Shared;
 
 // The greeting service definition.
 service Greeter {
