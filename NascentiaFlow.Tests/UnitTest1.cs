@@ -1,4 +1,4 @@
-namespace EgoPrimer.Tests;
+namespace NascentiaFlow.Tests;
 
 public class Tests
 {
