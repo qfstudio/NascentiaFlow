@@ -1,7 +1,7 @@
-﻿
+
 using System.IO;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 public static class Constants
 {

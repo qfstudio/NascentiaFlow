@@ -1,7 +1,7 @@
-﻿using Tomlyn;
+using Tomlyn;
 using static System.IO.File;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 public record AppSettings
 {

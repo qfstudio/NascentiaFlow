@@ -1,6 +1,6 @@
-﻿using System.Threading;
+using System.Threading;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 public static class Globals
 {

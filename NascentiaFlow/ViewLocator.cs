@@ -1,9 +1,9 @@
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using EgoPrimer.ViewModels;
-using EgoPrimer.Views;
+using NascentiaFlow.ViewModels;
+using NascentiaFlow.Views;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 public class ViewLocator : IDataTemplate
 {
@@ -41,7 +41,7 @@ public class SceneLocator : IDataTemplate
         if (vm is null)
             return null;
 
-        // EgoPrimer.ViewModels.FooBarSceneModel -> EgoPrimer.Views.FooBarScene
+        // NascentiaFlow.ViewModels.FooBarSceneModel -> NascentiaFlow.Views.FooBarScene
         var name = vm.GetType().FullName!
             .Replace("SceneModel", "Scene", StringComparison.Ordinal)
             .Replace(".ViewModels", ".Views", StringComparison.Ordinal);
@@ -80,7 +80,7 @@ public class SceneToolPanelLocator : SceneLocator
         if (vm is null)
             return null;
 
-        // EgoPrimer.ViewModels.FooBarSceneModel -> EgoPrimer.Views.FooBarSceneToolPanel
+        // NascentiaFlow.ViewModels.FooBarSceneModel -> NascentiaFlow.Views.FooBarSceneToolPanel
         var name = vm.GetType().FullName!
             .Replace("SceneModel", "SceneToolPanel", StringComparison.Ordinal)
             .Replace(".ViewModels", ".Views", StringComparison.Ordinal);

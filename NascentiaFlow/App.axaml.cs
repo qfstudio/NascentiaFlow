@@ -3,13 +3,13 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using EgoPrimer.Entities;
-using EgoPrimer.ViewModels;
-using EgoPrimer.Views;
+using NascentiaFlow.Entities;
+using NascentiaFlow.ViewModels;
+using NascentiaFlow.Views;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 static class ServiceCollectionExtensions
 {
@@ -108,14 +108,14 @@ public partial class App : Application
 
     private void InitConstants()
     {
-        var dataDirName = Environment.GetEnvironmentVariable("EGO_PRIMER_DATA_DIR_NAME");
+        var dataDirName = Environment.GetEnvironmentVariable("NASCENTIA_FLOW_DATA_DIR_NAME");
         if (dataDirName != null)
         {
             Constants.DataDirNameOverwrite = dataDirName;
         }
         else
         {
-            dataDirName ??= "EgoPrimer";
+            dataDirName ??= "NascentiaFlow";
         }
 
         var roamingFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);

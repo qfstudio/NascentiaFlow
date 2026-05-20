@@ -1,6 +1,6 @@
-﻿using EgoPrimer.Views;
+using NascentiaFlow.Views;
 
-namespace EgoPrimer;
+namespace NascentiaFlow;
 
 public static class TopWindows
 {
