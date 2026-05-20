@@ -1,6 +1,6 @@
 {
     "profiles": {
-    "EgoPrimer.Browser": {
+    "NascentiaFlow.Browser": {
         "commandName": "Project",
         "launchBrowser": true,
         "environmentVariables": {
