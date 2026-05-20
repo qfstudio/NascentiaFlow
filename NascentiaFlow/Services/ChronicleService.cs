@@ -1,7 +1,7 @@
-﻿using NodaTime;
+using NodaTime;
 using NodaTime.Calendars;
 
-namespace EgoPrimer.Services;
+namespace NascentiaFlow.Services;
 
 public class ChronicleService
 {

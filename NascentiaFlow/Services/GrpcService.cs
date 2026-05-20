@@ -1,7 +1,7 @@
-﻿using DynamicData.Tests;
+using DynamicData.Tests;
 using Grpc.Net.Client;
 
-namespace EgoPrimer.Services;
+namespace NascentiaFlow.Services;
 
 public class GrpcService
 {
