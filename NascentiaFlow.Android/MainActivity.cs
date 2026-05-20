@@ -1,13 +1,13 @@
-﻿using Android.App;
+using Android.App;
 using Android.Content.PM;
 using Avalonia;
 using Avalonia.Android;
 using Avalonia.ReactiveUI;
 
-namespace EgoPrimer.Android;
+namespace NascentiaFlow.Android;
 
 [Activity(
-    Label = "EgoPrimer.Android",
+    Label = "NascentiaFlow.Android",
     Theme = "@style/MyTheme.NoActionBar",
     Icon = "@drawable/icon",
     MainLauncher = true,

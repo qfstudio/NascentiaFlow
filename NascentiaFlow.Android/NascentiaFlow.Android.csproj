@@ -4,7 +4,7 @@
     <TargetFramework>net9.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
     <Nullable>enable</Nullable>
-    <ApplicationId>net.qfstudio.ego_primer</ApplicationId>
+    <ApplicationId>net.qfstudio.nascentia.flow</ApplicationId>
     <ApplicationVersion>1</ApplicationVersion>
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <AndroidPackageFormat>apk</AndroidPackageFormat>
@@ -14,7 +14,7 @@
   
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <!-- Use an alternative Android package name for debug builds. -->
-    <ApplicationId>net.qfstudio.ego_primer.dev</ApplicationId>
+    <ApplicationId>net.qfstudio.nascentia.flow.dev</ApplicationId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +29,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EgoPrimer\EgoPrimer.csproj" />
+    <ProjectReference Include="..\NascentiaFlow\NascentiaFlow.csproj" />
   </ItemGroup>
 </Project>
