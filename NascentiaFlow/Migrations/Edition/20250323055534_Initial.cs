@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace EgoPrimer.Migrations.Edition
+namespace NascentiaFlow.Migrations.Edition
 {
     /// <inheritdoc />
     public partial class Initial : Migration

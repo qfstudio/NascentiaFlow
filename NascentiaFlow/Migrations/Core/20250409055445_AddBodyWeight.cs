@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace EgoPrimer.Migrations.Core
+namespace NascentiaFlow.Migrations.Core
 {
     /// <inheritdoc />
     public partial class AddBodyWeight : Migration
