@@ -19,6 +19,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\EgoPrimer\EgoPrimer.csproj" />
+    <ProjectReference Include="..\NascentiaFlow\NascentiaFlow.csproj" />
   </ItemGroup>
 </Project>

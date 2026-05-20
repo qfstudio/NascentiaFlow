@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using Avalonia;
 using Avalonia.ReactiveUI;
 
-namespace EgoPrimer.Desktop;
+namespace NascentiaFlow.Desktop;
 
 sealed class Program
 {
