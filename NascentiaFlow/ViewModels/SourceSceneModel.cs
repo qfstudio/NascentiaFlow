@@ -1,17 +1,17 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Reactive;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using Avalonia.Data;
 using DynamicData;
-using EgoPrimer.Entities;
+using NascentiaFlow.Entities;
 using Microsoft.EntityFrameworkCore;
 using NodaTime;
 using ReactiveUI;
 using ReactiveUI.SourceGenerators;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public partial class SourceSceneModel : SceneModelBase
 {

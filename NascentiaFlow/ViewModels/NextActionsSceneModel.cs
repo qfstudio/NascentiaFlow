@@ -1,4 +1,4 @@
-﻿namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public class NextActionsSceneModel : SceneModelBase
 {

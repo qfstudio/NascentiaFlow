@@ -1,10 +1,10 @@
-﻿using System.Reactive;
-using EgoPrimer.Entities;
+using System.Reactive;
+using NascentiaFlow.Entities;
 using NodaTime;
 using ReactiveUI;
 using ReactiveUI.SourceGenerators;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public partial class SourceEditorSceneModel: SceneModelBase
 {

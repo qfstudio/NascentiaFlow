@@ -1,7 +1,7 @@
-﻿using System.Threading;
+using System.Threading;
 using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public abstract partial class ViewModelBase : ReactiveObject
 {

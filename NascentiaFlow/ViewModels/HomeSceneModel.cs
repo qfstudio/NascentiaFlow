@@ -1,6 +1,6 @@
-﻿using ReactiveUI.SourceGenerators;
+using ReactiveUI.SourceGenerators;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public partial class HomeSceneModel : SceneModelBase
 {

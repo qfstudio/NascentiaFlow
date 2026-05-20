@@ -1,7 +1,7 @@
-﻿using System.Reactive;
+using System.Reactive;
 using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public class BodyWeightEditorSceneModel : SceneModelBase
 {

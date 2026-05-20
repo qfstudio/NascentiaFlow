@@ -1,7 +1,7 @@
-ï»¿using EgoPrimer.Services;
+using NascentiaFlow.Services;
 using NodaTime.Calendars;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public class TimeSlotInfoViewModel : ViewModelBase
 {
@@ -13,6 +13,6 @@ public class TimeSlotInfoViewModel : ViewModelBase
         var weekYear = WeekYearRules.Iso.GetWeekYear(today);
         var week = WeekYearRules.Iso.GetWeekOfWeekYear(today);
 
-        TextInfo = $"{weekYear}å¹´ç¬¬{week}å‘¨";
+        TextInfo = $"{weekYear}ÄêµÚ{week}ÖÜ";
     }
 }

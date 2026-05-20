@@ -1,13 +1,13 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Reactive;
 using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using DynamicData;
-using EgoPrimer.Entities;
+using NascentiaFlow.Entities;
 using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public class HealthSceneModel : SceneModelBase
 {

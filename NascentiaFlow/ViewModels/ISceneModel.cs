@@ -1,9 +1,9 @@
-﻿using System.Reactive;
+using System.Reactive;
 using System.Reactive.Disposables;
 using System.Reactive.Subjects;
 using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public interface ISceneModel
 {

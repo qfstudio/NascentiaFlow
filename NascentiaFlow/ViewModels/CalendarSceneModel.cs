@@ -1,6 +1,6 @@
-﻿using ReactiveUI;
+using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public partial class CalendarSceneModel : SceneModelBase
 {

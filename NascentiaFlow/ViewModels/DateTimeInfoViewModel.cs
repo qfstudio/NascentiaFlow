@@ -1,9 +1,9 @@
-ï»¿using System.Reactive.Disposables;
+using System.Reactive.Disposables;
 using System.Reactive.Linq;
 using ReactiveUI;
 using ReactiveUI.SourceGenerators;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public partial class DateTimeInfoViewModel : ViewModelBase, IActivatableViewModel
 {
@@ -12,7 +12,7 @@ public partial class DateTimeInfoViewModel : ViewModelBase, IActivatableViewMode
     [Reactive]
     private string _info = GetDateTimeInfo();
 
-    private static string GetDateTimeInfo() => DateTime.Now.ToString("yyyyå¹´MMæœˆddæ—¥ HH:mm:ss");
+    private static string GetDateTimeInfo() => DateTime.Now.ToString("yyyyÄêMMÔÂddÈÕ HH:mm:ss");
     
     public DateTimeInfoViewModel()
     {

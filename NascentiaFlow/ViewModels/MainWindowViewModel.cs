@@ -1,10 +1,10 @@
-﻿using ReactiveUI;
+using ReactiveUI;
 
-namespace EgoPrimer.ViewModels;
+namespace NascentiaFlow.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {
-    private string _title = "EgoPrimer";
+    private string _title = "NascentiaFlow";
     public string Title
     {
         get => _title;
